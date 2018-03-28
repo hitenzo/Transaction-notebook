@@ -48,6 +48,13 @@ C:\projects\Transactions notebook\Transactions-notebook\bin\System.Web.WebPages.
 C:\projects\Transactions notebook\Transactions-notebook\bin\System.Web.WebPages.Razor.xml
 C:\projects\Transactions notebook\Transactions-notebook\bin\Antlr3.Runtime.pdb
 C:\projects\Transactions notebook\Transactions-notebook\bin\Newtonsoft.Json.xml
-C:\projects\Transactions notebook\Transactions-notebook\obj\Debug\Transactions-notebook.csprojResolveAssemblyReference.cache
 C:\projects\Transactions notebook\Transactions-notebook\obj\Debug\Transactions-notebook.dll
 C:\projects\Transactions notebook\Transactions-notebook\obj\Debug\Transactions-notebook.pdb
+C:\projects\Transactions notebook\Transactions-notebook\bin\EntityFramework.dll
+C:\projects\Transactions notebook\Transactions-notebook\bin\EntityFramework.SqlServer.dll
+C:\projects\Transactions notebook\Transactions-notebook\bin\EntityFramework.xml
+C:\projects\Transactions notebook\Transactions-notebook\bin\EntityFramework.SqlServer.xml
+C:\projects\Transactions notebook\Transactions-notebook\obj\Debug\Transactions_notebook.Migrations.InitialCreate.resources
+C:\projects\Transactions notebook\Transactions-notebook\obj\Debug\Transactions-notebook.csproj.GenerateResource.Cache
+C:\projects\Transactions notebook\Transactions-notebook\obj\Debug\Transactions_notebook.Migrations.Customer.resources
+C:\projects\Transactions notebook\Transactions-notebook\obj\Debug\Transactions_notebook.Migrations.QuoteFix.resources

@@ -22,3 +22,14 @@ select,
 textarea {
     max-width: 280px;
 }
+
+#actionPanel > button {
+    width: 140px;
+    height: 60px;
+    margin: 10px;
+}
+
+#transactionInput > button {
+    width: 140px;
+    height: 60px;
+}

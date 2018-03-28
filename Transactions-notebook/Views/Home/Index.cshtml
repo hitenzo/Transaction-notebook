@@ -2,6 +2,101 @@
     ViewBag.Title = "Home Page";
 }
 
-
 <div class="row">
+    <div class="col-sm-4 col-md-4 col-lg-4"></div>
+    <div id="actionPanel">
+        <button id="addTransaction" type="button" class="btn btn-primary">Create transaction</button>
+        <button id="deleteTransaction" type="button" class="btn btn-danger">Delete transaction</button>
+        <button id="editTransaction" type="button" class="btn btn-warning">Edit transaction</button>
+    </div>
+</div>
+<br />
+<br />
+<div class="row">
+    <div class="col-sm-5 col-md-5 col-lg-5"></div>
+    <div id="transactionInput" class="col-sm-4 col-md-4 col-lg-4">
+        <div id="idHolder" style="display:none"></div>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-default">Date of operation</span>
+            </div>
+            <input id="dateInput" value="MM/dd/yyyy" type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+        </div>
+
+
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-default">Name of quote</span>
+            </div>
+            <input id="nameInput" type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+        </div>
+
+
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text">Your comment</span>
+            </div>
+            <textarea id="commentInput" class="form-control" aria-label="Your comment"></textarea>
+        </div>
+
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-default">Name of a customer</span>
+            </div>
+            <input id="customerNameInput" type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+        </div>
+
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-default">Customer Number</span>
+            </div>
+            <input id="customerIdInput" type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+        </div>
+
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-default">Total amount ($)</span>
+            </div>
+            <input id="totalAmountInput" type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+        </div>
+        <br/>
+        <button id="saveEdit" type="button" class="btn btn-warning" style="display: none">Save Changes</button>
+    </div>
+</div>
+<br />
+<br />
+<div id="transactionsWrapper" class="row">
+    <div class="col-lg-10">
+        <table class="table" id="table">
+            <thead>
+                <tr>
+                    <th>Select</th>
+                    <th>Date of operation</th>
+                    <th>Name of a quote</th>
+                    <th>Comment</th>
+                    <th>Name of a customer</th>
+                    <th>Customer Number</th>
+                    <th>Total amount ($)</th>
+                </tr>
+            </thead>
+            <tbody>
+                @*<tr>
+                    <td>Introducing</td>
+                    <td>jQuery</td>
+                    <td>Searchable</td>
+                </tr>
+                <tr>
+                    <td>Something</td>
+                    <td>Ipsum</td>
+                    <td>Dolor</td>
+                </tr>
+                <tr>
+                    <td>Some</td>
+                    <td>More</td>
+                    <td>Data</td>
+                </tr>*@
+            </tbody>
+        </table>
+        <hr>
+    </div>
 </div>

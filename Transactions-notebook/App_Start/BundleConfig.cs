@@ -11,6 +11,10 @@ namespace Transactions_notebook
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
                         "~/Scripts/jquery-{version}.js"));
 
+            bundles.Add(new ScriptBundle("~/bundles/customScripts").Include(
+                        "~/Scripts/date.js",
+                        "~/Scripts/Home/Index.js"));
+
             bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
                         "~/Scripts/jquery.validate*"));
 
